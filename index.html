@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PinRes Soluciones Contables</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#222;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#ffffff,#f5efff);
+    text-align:center;
+    padding:60px 20px;
+}
+
+.logo{
+    width:180px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:3.5rem;
+    color:#6d28d9;
+    font-weight:700;
+}
+
+.slogan{
+    font-size:1.5rem;
+    font-style:italic;
+    color:#555;
+    margin-top:10px;
+}
+
+.subtitulo{
+    max-width:800px;
+    margin:20px auto;
+    font-size:1.1rem;
+}
+
+.boton{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    margin-top:20px;
+    transition:0.3s;
+}
+
+.boton:hover{
+    transform:scale(1.05);
+}
+
+section{
+    padding:70px 10%;
+}
+
+.titulo-seccion{
+    text-align:center;
+    color:#6d28d9;
+    margin-bottom:40px;
+    font-size:2rem;
+}
+
+.tarjetas{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.tarjeta{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-5px);
+}
+
+.tarjeta h3{
+    color:#6d28d9;
+    margin-bottom:10px;
+}
+
+.sobre{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.beneficios{
+    background:#faf7ff;
+}
+
+.lista{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.item{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.redes{
+    text-align:center;
+}
+
+.redes a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 20px;
+    border-radius:30px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.instagram{
+    background:#E1306C;
+}
+
+.tiktok{
+    background:#111;
+}
+
+.cta{
+    background:linear-gradient(135deg,#6d28d9,#8b5cf6);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.cta h2{
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.whatsapp-float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:25px;
+    right:25px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    text-align:center;
+    line-height:60px;
+    font-size:28px;
+    text-decoration:none;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <img src="logo.png.jpeg" alt="PinRes" width="300">
+
+    <h1>PINRES SOLUCIONES CONTABLES</h1>
+
+    <p class="slogan">"Lo mejor está por venir"</p>
+
+    <p class="subtitulo">
+        Más tiempo para hacer crecer tu negocio.
+        Nosotros nos encargamos de la contabilidad.
+    </p>
+
+    <a class="boton" href="https://wa.me/573202252740" target="_blank">
+        📱 Solicitar asesoría sin compromiso
+    </a>
+
+</header>
+
+<section class="sobre">
+
+    <h2 class="titulo-seccion">Sobre Nosotros</h2>
+
+    <p>
+        En PinRes Soluciones Contables ayudamos a personas,
+        emprendedores y empresas a mantener su información financiera
+        organizada y al día. Brindamos acompañamiento profesional,
+        atención personalizada y soluciones adaptadas a cada necesidad.
+    </p>
+
+</section>
+
+<section>
+
+    <h2 class="titulo-seccion">Nuestros Servicios</h2>
+
+    <div class="tarjetas">
+
+        <div class="tarjeta">
+            <h3>📊 Ciclo Contable Completo</h3>
+            <p>Gestión integral de la contabilidad de tu negocio.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>📑 Declaraciones Tributarias</h3>
+            <p>Cumplimiento oportuno de obligaciones fiscales.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>💼 Asesoría Financiera</h3>
+            <p>Apoyo para tomar decisiones financieras acertadas.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>📈 Informes en Power BI</h3>
+            <p>Visualización moderna de información financiera.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="beneficios">
+
+    <h2 class="titulo-seccion">¿A Quién Ayudamos?</h2>
+
+    <div class="lista">
+
+        <div class="item">👤 Personas naturales</div>
+        <div class="item">🚀 Emprendedores</div>
+        <div class="item">💼 Profesionales independientes</div>
+        <div class="item">🏢 Pequeñas y medianas empresas</div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2 class="titulo-seccion">¿Por Qué Elegirnos?</h2>
+
+    <div class="lista">
+
+        <div class="item">✅ Atención personalizada</div>
+        <div class="item">✅ Profesionalismo y confidencialidad</div>
+        <div class="item">✅ Acompañamiento permanente</div>
+        <div class="item">✅ Soluciones adaptadas a cada cliente</div>
+
+    </div>
+
+</section>
+
+<section class="redes">
+
+    <h2 class="titulo-seccion">Síguenos</h2>
+
+    <a class="instagram"
+       href="https://www.instagram.com/lijorena?igsh=MWJ5OHoxam5yZDdxMA=="
+       target="_blank">
+       Instagram
+    </a>
+
+    <a class="tiktok"
+       href="https://www.tiktok.com/@lilarestrepo5?_r=1&_t=ZS-974Zzv4Ndsy"
+       target="_blank">
+       TikTok
+    </a>
+
+</section>
+
+<section class="cta">
+
+    <h2>¿Necesitas ayuda con tu contabilidad o impuestos?</h2>
+
+    <p>
+        Solicita una asesoría inicial sin compromiso y descubre cómo
+        podemos ayudarte.
+    </p>
+
+    <br>
+
+    <a class="boton" href="https://wa.me/573202252740" target="_blank">
+        Solicitar Asesoría
+    </a>
+
+</section>
+
+<footer>
+
+    <h3>PinRes Soluciones Contables</h3>
+
+    <p>📍 Bogotá, Colombia</p>
+
+    <p>📱 320 225 2740</p>
+
+    <p>📧 lilarestrepo2102@gmail.com</p>
+
+    <p style="margin-top:15px;">
+        © 2026 PinRes Soluciones Contables
+    </p>
+
+</footer>
+
+<a class="whatsapp-float"
+href="https://wa.me/573202252740"
+target="_blank">
+💬
+</a>
+
+</body>
+</html>
